@@ -1,0 +1,113 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.7rem;
+  line-height: 1.3;
+  font-weight: 500;
+  font-style: normal;
+  color: rgb(124, 61, 32);
+}
+button {
+  font-size: 1em;
+}
+main {
+  padding: 1em;
+  padding-bottom: 0;
+}
+nav {
+  background-color: rgb(255, 244, 221);
+  border-radius: 20px;
+  padding: 1.5em;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+#mainBtn {
+  display: flex;
+  align-items: center;
+}
+#logo {
+  max-width: 40px;
+  margin-right: 0.5em;
+}
+article {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+h1 {
+  font-size: 2.3rem;
+  margin: 0.5em 0;
+}
+h2 {
+  font-size: 1.9rem;
+  margin: 1.5em 0 0.5em 0;
+}
+h3 {
+  font-size: 1.5rem;
+  margin: 0.5em 0;
+}
+h5 {
+  font-size: 1rem;
+  margin: 0.5em;
+}
+p {
+  display: inline;
+}
+img {
+  max-width: 100%;
+}
+.bold {
+  font-weight: 800;
+}
+.btn {
+  background-color: rgb(255, 221, 111);
+  color: rgb(124, 61, 32);
+  border: none;
+  border-radius: 40px;
+}
+.navBtn {
+  padding: 1em 2.5em;
+  text-align: center;
+  max-width: 15%;
+}
+.cardBtn {
+  padding: 0.5em 3em;
+  margin: 1em;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+  background-color: rgb(255, 244, 221);
+  border-radius: 40px;
+  padding: 1.5em;
+  margin-top: 1.5em;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.card div {
+  width: 100%;
+  align-items: center;
+}
+.spec {
+  display: flex;
+  justify-content: space-between;
+}
+.card_1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(255, 244, 221);
+  border-radius: 40px;
+  padding: 1.5rem;
+}
+aside img {
+  margin-top: 3em;
+}
